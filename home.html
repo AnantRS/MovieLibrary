@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="result.js" ></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Your Movie Library</h1>
+            <form id="movie_form" action="home.html" method="POST">
+                <input type="text" id ='movie' placeholder="Enter movie name" required>
+                <button type="submit">Search Movie</button>
+            </form>
+            <div id='movie_result'>
+                <h1>Movie Result</h1>
+            </div>
+        </div>
+
+       <h3>YOUR MOVIE LIST</h3>
+
+       <div>
+        <form id="add-movie">     
+            <input type="text" placeholder="Add movie to list..."/>
+            <button>Add</button>
+        </form>
+    </div>
+
+       <div id="movie-list">
+        <ul>
+
+        </ul>
+       </div>
+       <br>
+        <div class="out_container">
+            
+            <!-- Logout button -->
+            <button onclick="location.href='index.html'">Logout</button>
+       
+        
+        
+    </body>
+</html>
