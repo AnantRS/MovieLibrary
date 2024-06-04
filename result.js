@@ -9,7 +9,7 @@ document.getElementById('movie_form').addEventListener('submit', function(event)
 
 function getMovie(movie){
     const apiKey='38c3ce56';
-    const url=`http://www.omdbapi.com/?t=${movie}&apikey=${apiKey}`;
+    const url=`https://www.omdbapi.com/?t=${movie}&apikey=${apiKey}`;
 
     fetch(url)
     .then(response => response.json())
